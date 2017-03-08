@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">TechnoTest</string>
+    <string name="date_text">Дата</string>
+    <string name="button_save_text">Сохранить</string>
+    <string name="edit_first_name">Имя</string>
+    <string name="edit_second_name">Фамилия</string>
+    <string name="button_edit_text">Редактировать</string>
+</resources>

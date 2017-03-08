@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/edit_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_first_name"
+        android:textSize="24sp" />
+    <EditText
+        android:id="@+id/edit_second_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_second_name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/data_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:gravity="center_vertical"
+        android:hint="@string/date_text"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:text="@string/button_save_text"
+        android:textSize="18sp" />
+
+</LinearLayout>
