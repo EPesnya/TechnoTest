@@ -13,7 +13,8 @@
         android:layout_weight="0.05"
         android:gravity="center_vertical"
         android:hint="@string/edit_first_name"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:freezesText="true"/>
 
     <TextView
         android:id="@+id/second_name"
@@ -22,7 +23,8 @@
         android:layout_weight="0.05"
         android:gravity="center_vertical"
         android:hint="@string/edit_second_name"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:freezesText="true"/>
 
     <TextView
         android:id="@+id/data"
@@ -31,7 +33,8 @@
         android:layout_weight="0.05"
         android:gravity="center_vertical"
         android:hint="@string/date_text"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/edit_button"
